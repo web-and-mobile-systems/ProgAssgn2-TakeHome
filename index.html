@@ -5,26 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathaniel J. Klump</title>
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./Nav.css">
+    <link rel="stylesheet" type="text/css" href="./Body.css">
 </head>
 <body>
     <header id="page_header">
         <h1>Nathaniel Klump</h1>
         <h2>Portfolio Website</h2>
         <nav id="navbar">
-            <a href="./index.html" class="navOption">Home</a>
-            <a href="./html/resume.html" class="navOption">Resume</a>
-            <a href="./html/funFacts.html" class="navOption">Fun Facts</a>
-        </nav>
+            <ul class="navList">
+                <li><a href="./index.html" class="navOption">Home</a></li>
+                <li><a href="./html/resume.html" class="navOption">Resume</a></li>
+                <li><a href="./html/funFacts.html" class="navOption">Fun Facts</a></li>
+            </ul>
+            <div class="dropdown">
+                <input type="checkbox" id="menuToggle">
+                <label for="menuToggle" class="dropbtn">Menu &#9662;</label>
+                <div class="dropdown-content">
+                    <a href="./index.html">Home</a>
+                    <a href="./html/resume.html">Resume</a>
+                    <a href="./html/funFacts.html">Fun Facts</a>
+                </div>
+            </div>
+        </nav>        
         <div id="logocontainer" class="containerclass">
     </header>
-
-    <img
-        src="https://i.pinimg.com/originals/14/41/10/14411007e1ddac06b49a2c8375744cc3.jpg" 
-        alt="logo" 
-        height="100px"
-        id="image" 
-        class="image">
+        <img
+            src="https://i.pinimg.com/originals/14/41/10/14411007e1ddac06b49a2c8375744cc3.jpg" 
+            alt="logo" 
+            height="100px"
+            id="image" 
+            class="image">
         </div> 
         <quote>
             <blockquote>"If at first, you don't succeed, then skydiving definitely isn't for you." - Steven Wright</blockquote>
